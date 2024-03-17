@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    
+    padding: 50px;
+    background-color: rgb(128, 117, 117);
+  }
+
+  /* Navbar styles */
+  .navbar {
+    background-color: #2C3E50;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .navbar a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+
+  /* Login container styles */
+  .login-container {
+    margin: 20px auto;
+    width: 300px;
+  }
+
+  /* Login screen styles */
+  .login-screen {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* App title styles */
+  .app-title {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  /* Login form styles */
+  .login-form {
+    text-align: center;
+  }
+
+  /* Control group styles */
+  .control-group {
+    margin-bottom: 20px;
+  }
+
+  /* Input styles */
+  input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 15px;
+    width: 100%;
+    transition: border .5s;
+  }
+
+  /* Input focus styles */
+  input:focus {
+    border: 2px solid #3498DB;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+
+  /* Button styles */
+  .btn {
+    border: none;
+    background-color: #000000;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px 0;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 100%;
+    transition: background-color 0.25s;
+  }
+
+  /* Button hover styles */
+  .btn:hover {
+    background-color: #2980B9;
+  }
+
+  /* Login link styles */
+  .login-link {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+  }
